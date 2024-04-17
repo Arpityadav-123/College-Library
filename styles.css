@@ -1,0 +1,41 @@
+body{
+padding: 0;
+margin: 0;
+background-image: url("Vit.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.head{
+    top: 0;
+    background: fixed;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.heading h1{
+    margin-left: 22rem;
+    padding-right: 22rem;
+    
+}
+.heading{
+    background-color:skyblue;
+}
+.img_container img{
+margin-left: 0.2rem;
+margin-right: 6rem;
+}
+/* .content_container{
+    
+} */
+.reg_form{
+    margin: 0.5rem;
+}
+input{
+    margin: .8rem;
+
+}
+#contact{
+    margin-left: 1rem;
+}
