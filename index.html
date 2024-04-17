@@ -1,41 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>LIBRARY</title>
 </head>
+
 <body>
     <header>
-    <div class="head">
-        <div class="img_container"><img src="visionlogo.jpg" alt="vision logo" style="height: 5rem; width: 5rem;"></div>
-        <div class="heading"><h1>Vision Institute Of Technology</h1></div>   
+        <div class="head">
+            <div class="img_container"><img src="visionlogo.jpg" alt="vision logo" style="height: 5rem; width: 5rem;">
+            </div>
+            <div class="heading">
+                <h1>Vision Institute Of Technology</h1>
+            </div>
         </div>
-</header>
-<main>
-    <div>
-    <div class="content_container">
-        <h3>Offered Books</h3>
-        <a href="#">B.tech</a>
-        <a href="#">BCA</a>
-        <a href="#">Diploma</a>
-    </div>
-    <div class="registration">
-        <h3>Registration</h3>
-        <form action="#" name="myform" class="reg_form">
-            <label for="Name">Name:</label>
-            <input type="text" name="Name" ><br>
-            <label for="number">Contact:</label>
-            <input type="text" name="contact" id="contact"><br>
-            <label for="email">Email:</label>
-            <input type="text" name="email" id="mail"><br>
-            <label for="password">Password:</label>
-            <input type="password" name="Password"><br>
-            <button type="submit">Submit</button>
-        </form>
-    </div>
-</div>
-</main>
+    </header>
+    <main>
+        <div class="content_container">
+            <fieldset style="background-color: rgba(255, 255, 255, 0.555);">
+                <ul class="courses_books">
+                <h1 style="display: block; color: rgb(9, 64, 66);">OFFERED BOOKS</h1>
+
+                <li><a href="#">B.tech</a></li>
+                <li><a href="#">BCA</a></li>
+                <li><a href="#">Diploma</a></li>
+            </ul></fieldset>
+
+            <div class="registration">
+                <h1 style="color: cyan; margin-left: 2rem;">REGISTRATION</h1>
+                <fieldset class="field">
+                <form action="#" name="myform" class="reg_form">
+                    <label for="Name">Name:</label>
+                    <input type="text" name="Name"><br>
+                    <label for="number">Contact:</label>
+                    <input type="text" name="contact" id="contact"><br>
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" id="mail"><br>
+                    <label for="password">Password:</label>
+                    <input type="password" name="Password"><br>
+                    <button type="submit" id="submit">Submit</button>
+                </form></fieldset>
+            </div>
+        </div>
+    </main>
 </body>
+
 </html>
