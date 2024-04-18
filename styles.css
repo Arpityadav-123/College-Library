@@ -144,3 +144,10 @@ input{
     text-decoration: none;
     color: rgb(53, 46, 11);
 }
+/* starting books.html */
+.books-store{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
