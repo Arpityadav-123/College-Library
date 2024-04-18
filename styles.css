@@ -53,7 +53,7 @@ li{
 }
 /*Starting form */
 .reg_form{
-    margin: 2rem;
+    margin: 0rem 0 0rem 0;
 
 }
 
@@ -62,7 +62,7 @@ label{
     font-weight: bold;
 }
 input{
-    margin: .8rem;
+    margin-bottom: 2rem;
     font-size: 1rem;
 
 }
@@ -79,5 +79,4 @@ input{
 #contact{
     margin-left: 1rem;
 }
-.field{
-}
+
