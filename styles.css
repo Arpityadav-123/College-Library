@@ -118,7 +118,7 @@ input{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: nowrap;
     width: 80vw;
     height: 65vh;
