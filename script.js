@@ -11,8 +11,7 @@ function validationForm(){
 
 
         const userName=document.myform.Name.value;
-        // console.log(userName);
-        // console.log(userName.length);
+        
         if(userName.length<5){
             returnval = false;
          seterror('username',"Name cannot be empty",returnval,"unerror");
@@ -45,25 +44,11 @@ function validationForm(){
            seterror('passwd',"Please Enter atleast 6 character Password",returnval,"uperror");
         }
    
-    // return returnval; 
     
-    // document.getElementById('regform').addEventListener('submit', function(e) {
-    //         e.preventDefault();
-    
-        // validate fields
-        // checkUsername();
-        // checkContact();
-        // checkEmail();
-        // checkPassword();
-    
-        // let isvalidForm = isUsernameValid &&
-        //     isContactvalid &&
-        //     isEmailValid &&
-        //     isPasswordValid;
-    // });
     return returnval;
     
 }
+
 //seterror function call here
 var seterror=function seterror(id,error,returnval,id1){
     
