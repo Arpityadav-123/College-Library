@@ -158,7 +158,11 @@ input{
     display: flex;
     flex-direction: row;
     overflow-x: scroll;
+
     justify-content: space-evenly;
     padding: .8rem;
     flex-wrap:nowrap;
+}
+::-webkit-scrollbar-track{
+    color: brown;
 }
