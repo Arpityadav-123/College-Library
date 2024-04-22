@@ -1,9 +1,9 @@
 function bigImg(x){
-        x.style.height = "8rem";
+        x.style.height = "9rem";
         x.style.width = "12.5rem";
 }
 function normalImg(x){
-    x.style.height = "7.5rem";
+    x.style.height = "8rem";
     x.style.width = "12rem";
 }
 function validationForm(){  
@@ -11,23 +11,27 @@ function validationForm(){
 
 
         const userName=document.myform.Name.value;
-        
+
+        if(isNaN(!userName)){
+            returnval = false;
+         seterror('username',"Name length too short",returnval,"unerror");
+        }
         if(userName.length<5){
             returnval = false;
-         seterror('username',"Name cannot be empty",returnval,"unerror");
+         seterror('username',"Name length too short",returnval,"unerror");
          
         }
 
         const userContact=document.myform.contact.value;
         if(isNaN(userContact)){
             returnval=false;
-            seterror('contact',"Enter numeric value only",returnval);
+            seterror('contact',"Enter numeric value only",returnval,"ucerror");
             } 
-        if(userContact.length<10 || userContact.length>11){
-            returnval = false;
-            seterror('contact',"Enter a valid mobile number",returnval,'ucerror');
+        // if(userContact.length<10 || userContact.length>11){
+        //     returnval = false;
+        //     seterror('contact',"Enter a valid mobile number",returnval,'ucerror');
             
-        }
+        // }
         
         const userEmail=document.myform.email.value;
         var atposition=userEmail.indexOf("@");
